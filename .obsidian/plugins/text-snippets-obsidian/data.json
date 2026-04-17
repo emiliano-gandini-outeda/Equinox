@@ -1,0 +1,17 @@
+{
+  "snippets_file": "ik : I know\njs : JavaScript\nimo : in my opinion\ncomms : communications",
+  "snippets": [
+    "ik : I know",
+    "js : JavaScript",
+    "imo : in my opinion",
+    "comms : communications"
+  ],
+  "endSymbol": "$end$",
+  "newlineSymbol": "$nl$",
+  "stopSymbol": "$tb$",
+  "pasteSymbol": "$pst$",
+  "useTab": true,
+  "useSpace": true,
+  "wordDelimiters": "$()[]{}<>,.!?;:'\"\\/",
+  "isWYSIWYG": true
+}

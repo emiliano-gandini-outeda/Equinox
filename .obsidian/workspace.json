@@ -1,0 +1,240 @@
+{
+  "main": {
+    "id": "78b1601f9238b091",
+    "type": "split",
+    "children": [
+      {
+        "id": "811a55db43be8d58",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "309ceedd12b41b62",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "graph",
+              "state": {},
+              "pinned": true,
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
+            }
+          },
+          {
+            "id": "7a40e6853a84e89e",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4be773fec2c2c5ac",
+    "type": "split",
+    "children": [
+      {
+        "id": "d20da40e028408be",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "77fd6721fee05545",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "814c7e1f300616a0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "f32eb81b5ecaeaaf",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "2e242d1474fd531f",
+    "type": "split",
+    "children": [
+      {
+        "id": "3538e44e1e881d8f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cdb99a28c38d1cb1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Master.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Master"
+            }
+          },
+          {
+            "id": "6fc9fdbd5690d197",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Welcome.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Welcome"
+            }
+          },
+          {
+            "id": "bed20f8b3843648f",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "f5ff3b0d80475e34",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "3ac0985b44fc7ae7",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Welcome.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Welcome"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "omnisearch:Omnisearch": false
+    }
+  },
+  "active": "309ceedd12b41b62",
+  "lastOpenFiles": [
+    "00_Index/Data Science.md",
+    "DataFrame Basics.md",
+    "02_Data_Processing/DataFrame Basics.md",
+    "02_Data_Processing/pandas.md",
+    "01_Data_Acquisition/How to Extract Data.md",
+    "01_Data_Acquisition/How to download Data from the Internet.md",
+    "z_Templates",
+    "10_Atomic",
+    "03_Reference",
+    "02_Data_Processing",
+    "01_Data_Acquisition",
+    "00_Index",
+    "Untitled.md",
+    "pandas.md",
+    "How to download Data from the Internet.md",
+    "How to Extract Data.md",
+    "Data Science.md",
+    "Master.md",
+    "Dev/Backend/Django/Django Templates.md",
+    "Dev/Backend/Django/{Django}.md",
+    "Dev/Backend/Django/How to Setup Django.md",
+    "Dev/Backend/Django/Django Functions.md",
+    "Dev/Backend/{Backend}.md",
+    "Dev/Fish.md",
+    "Dev/Backend/Django/What is Django?.md",
+    "Definitions/Stateless.md",
+    "Definitions/JWT token.md",
+    "Definitions/JSON.md",
+    "People/Pedro Zalayeta.md",
+    "Definitions/Cache.md",
+    "Definitions/URL.md",
+    "Definitions/CRUD.md",
+    "I",
+    "JSON-RPC",
+    "JSON-RPC ",
+    "Dev/Backend/API",
+    "Assets/Pasted image 20260109111005.png",
+    "Assets/shell/shell-1767981036576.png",
+    "Assets/image 2.png",
+    "Assets/image 1.png",
+    "Assets/image.png",
+    "Assets/Pasted image 20260109144340.png"
+  ]
+}
