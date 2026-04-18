@@ -9,9 +9,9 @@ created: 2026-04-16
 
 > Part of the [[Data Science]] workflow.
 
-pandas is a python library that enables data to be handled as a numeric table
+pandas is a Python library that enables data to be handled as numeric tables.
 
-It uses unique data structures that enables processing of various types of data
+It uses unique data structures that enable processing of various types of data.
 
 > **In short:**
 > You can handle data as if you were using Excel
@@ -26,7 +26,7 @@ It uses unique data structures that enables processing of various types of data
 Common data structures used in pandas are Series and Data Frames
 
 ## Series
-Series are  1D matrices (also called vectors), separated in rows
+Series are 1D arrays (also called vectors).
 
 |     | Row name  |
 | :-- | --------- |
@@ -58,8 +58,8 @@ print(series)
 A `Series` object has both indices and elements. Indices can be defined using the `index` parameter.
 
 ```python
-series = Series(1,1,2,3,5,8],
-				index=["a","b","c","d","e","f"])
+series = Series([1, 1, 2, 3, 5, 8],
+                index=["a", "b", "c", "d", "e", "f"])
 
 print(series)
 
@@ -145,7 +145,7 @@ To read data with pandas, you use one of the following pandas functions:
 ```python
 import pandas as pd
 
-my_data = pd.read_csv('route/to/your/csv.csv) 
+my_data = pd.read_csv('route/to/your/csv.csv')
 ```
 
 Now, to visualize said data:

@@ -27,10 +27,9 @@ r.close()
 
 # Using a context manager
 
-with request.get(url, stream=True) as r:
+with requests.get(url, stream=True) as r:
 	# Your code...
 	
 # This closes the stream automatically when the job ends.
 ```
-
 

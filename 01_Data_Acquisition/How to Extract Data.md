@@ -14,10 +14,9 @@ To extract data from .zip files, we use the `io` and `zipfile` libraries.
 import zipfile
 import io
 
-## Lets assume the zipfile is stored in the variable my_zip
+# Let's assume the zipfile is stored in the variable my_zip
 
 z = zipfile.ZipFile(io.BytesIO(my_zip))
 z.extractall()
 ```
-
 

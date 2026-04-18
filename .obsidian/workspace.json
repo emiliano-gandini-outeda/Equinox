@@ -20,16 +20,21 @@
             }
           },
           {
-            "id": "7a40e6853a84e89e",
+            "id": "b7dd90f3b2033fe4",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "02_Data_Processing/DataFrame Basics.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "DataFrame Basics"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -86,7 +91,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "2e242d1474fd531f",
@@ -192,12 +198,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "309ceedd12b41b62",
+  "active": "b7dd90f3b2033fe4",
   "lastOpenFiles": [
+    "02_Data_Processing/DataFrame Basics.md",
+    "00_Index/Python.md",
+    "Index.md",
+    "02_Data_Processing/pandas.md",
     "00_Index/Data Science.md",
     "DataFrame Basics.md",
-    "02_Data_Processing/DataFrame Basics.md",
-    "02_Data_Processing/pandas.md",
     "01_Data_Acquisition/How to Extract Data.md",
     "01_Data_Acquisition/How to download Data from the Internet.md",
     "z_Templates",
@@ -224,8 +232,6 @@
     "Definitions/JSON.md",
     "People/Pedro Zalayeta.md",
     "Definitions/Cache.md",
-    "Definitions/URL.md",
-    "Definitions/CRUD.md",
     "I",
     "JSON-RPC",
     "JSON-RPC ",
