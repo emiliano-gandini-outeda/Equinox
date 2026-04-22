@@ -9,7 +9,7 @@ created: 2026-04-16
 
 **How to handle DataFrame objects**
 
-> Part of the [[pandas]] ecosystem. See [[pandas]] for an overview.
+> Part of the [[04_Python/pandas]] ecosystem. See [[04_Python/pandas]] for an overview.
 
 ### Transposition
 
@@ -87,7 +87,7 @@ You can't  select multiple columns using the class-like method.
 
 #### Rows
 
-To easily select rows, we use [[List Comprehensions | list comprehensions]], a Python utility that allows us to efficiently select  specific rows from a Matrix.
+To easily select rows, we use [[04_Python/Concepts/List Comprehensions]], a Python utility that allows us to efficiently select  specific rows from an array.
 
 ```python
 cols_to_use = [
@@ -99,3 +99,27 @@ anime_data_extracted = anime_data[cols_to_use]
 anime_data_extracted[0:3]
 ```
 
+It also works with letters as indexes.
+
+```python
+df = pd.DataFrame({
+'ID': [100, 101, 102, 103],
+'City': ['Tokyo', 'Osaka', 'Kyoto', 'Nagoya'],
+'Birth_year': [1990, 1989, 1992, 1995],
+'Name': ['Hiroshi', 'Akiko', 'Yuki', 'Satoru']
+index=['a', 'b', 'c', 'd']
+})
+
+df['a':'c']
+
+# Output
+
+ID City Birth_year Name
+a 100 Tokyo 1990 Hiroshi
+b 101 Osaka 1989 Akiko
+c 102 Kyoto 1992 Yuki
+```
+
+#### df.loc
+
+`df.loc[]` allows you to select a specific column or row by specifying the index or column name.

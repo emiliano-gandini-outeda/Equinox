@@ -7,7 +7,7 @@ tags:
 created: 2026-04-16
 ---
 
-> Part of the [[Data Science]] workflow.
+> Part of the [[00_Index/Data Science]] workflow.
 
 pandas is a Python library that enables data to be handled as numeric tables.
 
@@ -118,7 +118,7 @@ print(df)
 
 You can use the `.head()` method to print the 5 first rows.
 
-See [[DataFrame Basics]]
+See [[02_Data_Processing/DataFrame Basics]]
 
 ## How to read Data
 

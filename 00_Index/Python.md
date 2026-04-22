@@ -11,9 +11,9 @@ Python is a general-purpose programming language widely used in data science, au
 
 ## In This Vault
 
-- [[pandas]]
-- [[Series]]
-- [[DataFrame]]
-- [[requests]]
-- [[zipfile]]
-- [[io]]
+- [[04_Python/Libraries]]
+- [[Data Structures]]
+- [[04_Python/Data_Types/Data Types]]
+- [[04_Python/numpy]]
+- [[04_Python/pandas]]
+- [[04_Python/Concepts]]

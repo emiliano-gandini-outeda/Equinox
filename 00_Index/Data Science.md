@@ -28,13 +28,14 @@ It's not tabular but it is standardized
 
 # Data Science Tools
 ## Python
-Using [[Python]] with libraries like [[pandas]] and [[numpy]].
+Using [[00_Index/Python]] with libraries like [[04_Python/pandas]] and [[04_Python/numpy]].
 
-[[pandas]] is a core library for data manipulation and is part of the [[Data Science]] workflow.
+[[04_Python/pandas]] is a core library for data manipulation and is part of the [[00_Index/Data Science]] workflow.
 
 # Data Sources
-## Downloading Data from the Internet
 
-To download data from the internet, we use the `requests` library to get the data, `zipfile` to extract it, and `io` to read and write files.
+See [[01_Data_Acquisition/Data Acquisition]].
 
-See [[How to download Data from the Internet]] and [[How to Extract Data]].
+# Data Processing
+
+See [[02_Data_Processing/Data Processing]]

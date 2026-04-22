@@ -5,7 +5,7 @@ tags:
 created: 2026-04-18
 ---
 
-# Main Topics
+# Topics
 
-- [[Data Science]]
-- [[Python]]
+- [[00_Index/Data Science]]
+- [[00_Index/Python]]

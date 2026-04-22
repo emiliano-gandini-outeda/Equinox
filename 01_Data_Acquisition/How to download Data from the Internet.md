@@ -19,7 +19,7 @@ url = 'https://github.com/Hernan4444/MyAnimeList-Database/archive/refs/heads/mas
 r = requests.get(url, stream=True)
 ```
 
-`stream=True` allows for big files to be broken down in smaller chunks, but the stream needs to be closed. You can either close it manually or use a [[Context Managers | context manager]].
+`stream=True` allows for big files to be broken down in smaller chunks, but the stream needs to be closed. You can either close it manually or use a [[04_Python/Concepts/Context Managers]].
 
 ```python
 # To close manually
