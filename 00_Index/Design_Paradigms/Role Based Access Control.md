@@ -1,6 +1,14 @@
+---
+tags:
+  - design-paradigm
+  - security
+  - concept
+created: 2026-04-20
+---
+
 The concept of **Role Based Access Control (RBAC)** is based around defining what each role can do outside of function logic.
 
-# Defining Access
+## Defining Access
 Let's imagine we have 3 types of users:
 - normal users
 - moderators
@@ -31,7 +39,7 @@ ROLES = {
 }
 ```
 
- RBAC is created around the [[CRUD]] concept.
+ RBAC is created around the [[00_Index/Design_Paradigms/CRUD]] concept.
 
 Let's imagine we have a simple user model in `app/models.py`.
 
