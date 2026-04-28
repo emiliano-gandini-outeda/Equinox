@@ -28,9 +28,9 @@ It's not tabular but it is standardized
 
 # Data Science Tools
 ## Python
-Using [[00_Index/Python]] with libraries like [[04_Python/pandas]] and [[04_Python/numpy]].
+Using [[00_Index/Python]] with libraries like [[04_Python/Libraries/pandas]] and [[04_Python/Libraries/numpy]].
 
-[[04_Python/pandas]] is a core library for data manipulation and is part of the [[00_Index/Data Science]] workflow.
+[[04_Python/Libraries/pandas]] is a core library for data manipulation and is part of the [[00_Index/Data Science]] workflow.
 
 # Data Sources
 

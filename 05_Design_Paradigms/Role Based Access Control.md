@@ -39,7 +39,7 @@ ROLES = {
 }
 ```
 
- RBAC is created around the [[00_Index/Design_Paradigms/CRUD]] concept.
+ RBAC is created around the [[CRUD]] concept.
 
 Let's imagine we have a simple user model in `app/models.py`.
 

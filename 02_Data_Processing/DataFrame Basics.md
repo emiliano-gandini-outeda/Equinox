@@ -9,7 +9,9 @@ created: 2026-04-16
 
 **How to handle DataFrame objects**
 
-> Part of the [[04_Python/pandas]] ecosystem. See [[04_Python/pandas]] for an overview.
+> Part of the [[pandas]] ecosystem. See [[pandas]] for an overview.
+
+> See [[DataFrame Methods]] for complete method reference.
 
 ### Transposition
 

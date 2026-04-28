@@ -9,4 +9,4 @@ created: 2026-04-20
 
 A Python module for handling various types of I/O (text, binary, raw).
 
-> See also: [[00_Index/Python]]
+> See also: [[04_Python/Libraries/Libraries]]

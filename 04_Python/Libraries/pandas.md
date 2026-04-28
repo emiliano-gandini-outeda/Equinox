@@ -26,9 +26,12 @@ It uses unique data structures that enable processing of various types of data.
 Common data structures used in pandas are Series and Data Frames
 
 ## Series
+
 Series are 1D arrays (also called vectors).
 
-|     | Row name  |
+See [[04_Python/Data_Structures/Series]]
+
+## Data Frames     | Row name  |
 | :-- | --------- |
 | 1   | 123412312 |
 | 2   | 2352123   |
@@ -118,7 +121,7 @@ print(df)
 
 You can use the `.head()` method to print the 5 first rows.
 
-See [[02_Data_Processing/DataFrame Basics]]
+See [[04_Python/Data_Structures/DataFrame]]
 
 ## How to read Data
 
