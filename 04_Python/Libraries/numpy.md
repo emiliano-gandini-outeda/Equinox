@@ -149,7 +149,28 @@ print(arr[3, 1, -1])
 
 They return as an array.
 
+#### Boolean Indexing
+
+**Boolean Indexing** allows to filter elements of an array based on a conditional statement.
+
+```python
+arr = [1,2,3,4,5,6,7,8,9,10]
+condition = arr % 2 = 0
+> [False, True, False, True, False, True, False, True, False, True]
+```
+
+You can use this to filter outlier values.
+
+```python
+arr = [-524,-240,12,35,45,56,234,347]
+filtered_arr = 0 < arr < 100
+> [12,35,45,56]
+```
+
+Read more about [[04_Python/Concepts/Conditional Filtering|conditional filtering.]]
 #### Slicing
 
-**Numpy slicing** works the same as [[04_Python/Concepts/Slicing | Python slicing]]. 
+**Numpy 1D slicing** works the same as [[04_Python/Concepts/Slicing |Python slicing]]. 
+
+**Numpy 2D** (or higher dimensions) **slicing** doesn't work the same as python slicing. This is called [[04_Python/Libraries/Libraries/numpy/Multidimensional Slicing|multidimensional slicing]].
 
