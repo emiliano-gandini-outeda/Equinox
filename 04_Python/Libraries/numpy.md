@@ -227,7 +227,7 @@ first = matrix[0][0]
 last = matrix[-1][-1]
 ```
 
-But numpy provides a better alternative: [[04_Python/Libraries/numpy/Multidimensional Slicing|multidimensional slicing]].
+But numpy provides a better alternative: [[04_Python/Libraries/Libraries/numpy/Multidimensional Slicing|multidimensional slicing]].
 
 **In short**:
 
@@ -390,4 +390,3 @@ LA.norm(A, ord=np.inf) # Calculates L∞, the largest absolute value
 ```
 
 See more in [[04_Python/Libraries/numpy/Linear Algebra]|linear algebra with numpy]].
-

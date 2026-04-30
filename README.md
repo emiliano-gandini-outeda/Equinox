@@ -18,6 +18,8 @@ Folder wise, it's organized by concepts.
 
 Obsidian wise, it's organized by **Top Level Topics** found in 00_Index.
 
+Start here: [[Vault Index]].
+
 ---
 
 This repo is not meant to be conttributed to, but corrections (as Issues or Pull Requests) are welcome.
