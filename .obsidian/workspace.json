@@ -61,8 +61,7 @@
               "title": "Vault Index"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -226,15 +225,17 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "7f6ef313e8899194",
+  "active": "ea04fe52c379555f",
   "lastOpenFiles": [
+    "04_Python/Libraries/numpy.md",
+    "Vault Index.md",
+    "04_Python/Libraries/Libraries/numpy/Multidimensional Slicing.md",
+    "numpy/Linear Algebra.md",
+    "numpy",
     "Untitled.md",
     "README.md",
     "LICENSE",
     "04_Python/Libraries/numpy/Numpy Arrays.md",
-    "Vault Index.md",
-    "04_Python/Libraries/Libraries/numpy/Multidimensional Slicing.md",
-    "04_Python/Libraries/numpy.md",
     "04_Python/Libraries/numpy/Numpy Conditional Operations.md",
     "04_Python/Libraries/Libraries/numpy",
     "04_Python/Libraries/Libraries",
@@ -257,10 +258,8 @@
     "00_Index/Programming Theory.md",
     "04_Python/Libraries/numpy/Matrix Broadcasting.md",
     "numpy/Matrix Broadcasting.md",
-    "numpy",
     "04_Python/Libraries/numpy/Arrays.md",
     "04_Python/Libraries/numpy",
-    "04_Python/Concepts/Matrices.md",
     "03_Data Acquisition",
     "04_Python/Libraries",
     "04_Python/Data_Types",

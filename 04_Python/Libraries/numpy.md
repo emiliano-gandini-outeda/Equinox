@@ -102,14 +102,14 @@ Details on how this works can be seen in [[Matrix Broadcasting]].
 
 **Broadcasting doesn't work for all matrices**. 
 
-Broadcasting only works when a numpy array is of length 1. If not, a `ValueError` is raised.
+Broadcasting works when dimensions are compatible. Starting from the trailing dimensions, two dimensions are compatible when they are equal or when one of them is 1. If dimensions are not compatible, a `ValueError` is raised.
 
 ### Concatenation
 
 Unlike in Python, using the `+` operator in numpy doesn't concatenate two arrays. To concatenate arrays in numpy we use the `concatenate` method.
 
 ```python
-np.concatenate(arr1, arr2)
+np.concatenate((arr1, arr2))
 ```
 
 ### Indexing
@@ -140,7 +140,7 @@ print(arr[-1])
 In **numpy**, you can specify multiple indexes to retrieve multiple values at the same time.
 
 ```python
-print(arr[3, 1, -1])
+print(arr[[3, 1, -1]])
 > [4, 2, 5]
 ```
 
@@ -151,16 +151,16 @@ They return as an array.
 **Boolean Indexing** allows to filter elements of an array based on a conditional statement.
 
 ```python
-arr = [1,2,3,4,5,6,7,8,9,10]
-condition = arr % 2 = 0
+arr = np.array([1,2,3,4,5,6,7,8,9,10])
+condition = arr % 2 == 0
 > [False, True, False, True, False, True, False, True, False, True]
 ```
 
 You can use this to filter outlier values.
 
 ```python
-arr = [-524,-240,12,35,45,56,234,347]
-filtered_arr = 0 < arr < 100
+arr = np.array([-524,-240,12,35,45,56,234,347])
+filtered_arr = arr[(arr > 0) & (arr < 100)]
 > [12,35,45,56]
 ```
 
@@ -227,7 +227,7 @@ first = matrix[0][0]
 last = matrix[-1][-1]
 ```
 
-But numpy provides a better alternative: [[04_Python/Libraries/Libraries/numpy/Multidimensional Slicing|multidimensional slicing]].
+But numpy provides a better alternative: [[04_Python/Libraries/numpy/Multidimensional Slicing|multidimensional slicing]].
 
 **In short**:
 
@@ -261,16 +261,16 @@ cube[:, 4, (cube[0, 4, :] % 2 == 0)]
 Read[[04_Python/Libraries/numpy/Numpy 2D Arrays | more about numpy 2D arrays]].
 ## Constants
 
-**Numpy** as a number of constants. 
+**Numpy** has a number of constants.
 
 ```python
-np.pi = 3.141592653589793
-np.e = 2.718281828459045
-np.inf = ∞
--np.inf = -∞ # lmao small ass symbol
+np.pi  # 3.141592653589793
+np.e   # 2.718281828459045
+np.inf # inf
+-np.inf # -inf
 ```
 
-`np.inf` as  a number of set properties.
+`np.inf` has a number of set properties.
 
 ```python
 1 + np.inf
@@ -338,7 +338,7 @@ np.random.randint(low, high=None, size=None, dtype=int)
 
 ```python
 np.random.randint(-5, 10, (5,5))
-# Generates values from -9 to 10 (excluded) in a 5*5 matrix
+# Generates values from -5 (included) to 10 (excluded) in a 5*5 matrix
 ```
 
 ### Seed
@@ -348,7 +348,7 @@ The random number generation above produces different results each time it is ex
 By setting a **seed** (the random number seed), you can ensure that the same random numbers are generated if the seed is the same.
 
 ```python
-np.seed(seed=32)
+np.random.seed(32)
 ```
 
 **A better practice** is to **not** set a global state and use a local variable.
@@ -362,8 +362,8 @@ This uses the **new numpy API** which gives better results.
 
 ```python
 rng.random(534) # Replaces rand
-rng.integer(-5, 10, (12,4)) # Replaces randint
-rng.santadard_normal((3, 2)) # Replaces randn
+rng.integers(-5, 10, (12,4)) # Replaces randint
+rng.standard_normal((3, 2)) # Replaces randn
 ```
 
 See more in [[04_Python/Libraries/numpy/Random|the random module page]].
@@ -389,5 +389,5 @@ LA.norm(A, ord=1) # Calculates the L1 norm = sum of absolute values
 LA.norm(A, ord=np.inf) # Calculates L∞, the largest absolute value
 ```
 
-
+See more in [[04_Python/Libraries/numpy/Linear Algebra]|linear algebra with numpy]].
 
