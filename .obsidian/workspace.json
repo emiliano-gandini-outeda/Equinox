@@ -20,48 +20,35 @@
             }
           },
           {
-            "id": "7f6ef313e8899194",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "04_Python/Libraries/numpy.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "numpy"
-            }
-          },
-          {
             "id": "3fe9048e0ae67111",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04_Python/Libraries/Libraries/numpy/Multidimensional Slicing.md",
+                "file": "00_Index/Data Science.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Multidimensional Slicing"
+              "title": "Data Science"
             }
           },
           {
-            "id": "e414eac81cd070ce",
+            "id": "985f5e107472c957",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vault Index.md",
+                "file": "00_Index/Python.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Vault Index"
+              "title": "Python"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -118,8 +105,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "2e242d1474fd531f",
@@ -225,11 +211,26 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ea04fe52c379555f",
+  "active": "985f5e107472c957",
   "lastOpenFiles": [
+    "00_Index/Statistical Analysis.md",
+    "00_Index/Data Science.md",
+    "03_Data_Science/Data_Processing/Data Processing.md",
+    "00_Index/Python.md",
+    "04_Python/Libraries/numpy/Matrix Math.md",
+    "03_Data_Science/Data_Processing",
+    "03_Data_Science/Data_Acquisition",
+    "03_Data_Science/02_Data_Processing/DataFrame Basics.md",
+    "03_Data_Science/02_Data_Processing/Data Processing.md",
+    "03_Data_Science/02_Data_Processing",
+    "03_Data_Science/01_Data_Acquisition/How to download Data from the Internet.md",
+    "03_Data_Science/01_Data_Acquisition/How to Extract Data.md",
+    "03_Data_Science/01_Data_Acquisition/Data Acquisition.md",
+    "03_Data_Science/01_Data_Acquisition",
+    "03_Data_Science",
     "04_Python/Libraries/numpy.md",
-    "Vault Index.md",
     "04_Python/Libraries/Libraries/numpy/Multidimensional Slicing.md",
+    "Vault Index.md",
     "numpy/Linear Algebra.md",
     "numpy",
     "Untitled.md",
@@ -248,21 +249,6 @@
     "XX_Definitions",
     "00_Index/Definitions.md",
     "XX_Definitions/Definitions.md",
-    "04_Python/Concepts/Concepts.md",
-    "04_Python/Concepts/List Comprehensions.md",
-    "06_Statistical_Analysis/Statistical Analysis.md",
-    "04_Python/Libraries/Libraries.md",
-    "00_Index/Math.md",
-    "00_Index/Python.md",
-    "06_Statistical_Analysis",
-    "00_Index/Programming Theory.md",
-    "04_Python/Libraries/numpy/Matrix Broadcasting.md",
-    "numpy/Matrix Broadcasting.md",
-    "04_Python/Libraries/numpy/Arrays.md",
-    "04_Python/Libraries/numpy",
-    "03_Data Acquisition",
-    "04_Python/Libraries",
-    "04_Python/Data_Types",
     "Assets/Pasted image 20260109111005.png",
     "Assets/shell/shell-1767981036576.png",
     "Assets/image 2.png",

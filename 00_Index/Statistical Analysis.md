@@ -1,14 +1,11 @@
 ---
 tags:
-  - math
   - overview
+  - statistics
 created: 2026-04-18
 ---
 
-# Math
-
-Mathematical concepts and tools used in data science and programming.
-
+# Statistical Analysis
 ## Topics
 
 - [[06_Statistical_Analysis/Statistical Analysis]]

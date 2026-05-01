@@ -9,6 +9,6 @@ created: 2026-04-18
 
 - [[00_Index/Data Science]]
 - [[00_Index/Python]]
-- [[00_Index/Math]]
+- [[00_Index/Statistical Analysis]]
 - [[00_Index/Programming Theory]]
 - [[00_Index/Definitions]]

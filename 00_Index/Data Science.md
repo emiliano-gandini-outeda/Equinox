@@ -28,14 +28,14 @@ It's not tabular but it is standardized
 
 # Data Science Tools
 ## Python
-Using [[00_Index/Python]] with libraries like [[04_Python/Libraries/pandas]] and [[04_Python/Libraries/numpy]].
+Using [[00_Index/Python|python]] with libraries like **pandas** and **numpy**.
 
-[[04_Python/Libraries/pandas]] is a core library for data manipulation and is part of the [[00_Index/Data Science]] workflow.
+**pandas** is a core library for data manipulation and is part of the Data Science workflow.
 
 # Data Sources
 
-See [[01_Data_Acquisition/Data Acquisition]].
+See [[03_Data_Science/Data_Acquisition/Data Acquisition|Data Acquisition]].
 
 # Data Processing
 
-See [[02_Data_Processing/Data Processing]]
+See [[03_Data_Science/Data_Processing/Data Processing|Data Processing]].
