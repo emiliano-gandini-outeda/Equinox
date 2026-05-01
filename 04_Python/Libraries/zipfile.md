@@ -9,4 +9,4 @@ created: 2026-04-20
 
 A Python library for reading and writing ZIP archives.
 
-> See also: [[04_Python/Libraries/Libraries]], [[01_Data_Acquisition/How to Extract Data]]
+> See also: [[04_Python/Libraries/Libraries]], [[03_Data_Science/Data Acquisition/Data Acquisition]]

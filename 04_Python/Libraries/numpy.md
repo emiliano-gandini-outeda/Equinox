@@ -140,7 +140,7 @@ print(arr[-1])
 In **numpy**, you can specify multiple indexes to retrieve multiple values at the same time.
 
 ```python
-print(arr[[3, 1, -1]])
+print(arr[np.array([3, 1, -1])])
 > [4, 2, 5]
 ```
 

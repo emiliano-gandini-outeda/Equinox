@@ -8,6 +8,8 @@ created: 2026-04-16
 
 # Definition
 
+It's the scientific method applied to extract insights from data and solve business problems, converting data into value.
+
 # Data Science Process
 
 **Obtain**: Gather Data from relevant sources
@@ -34,8 +36,20 @@ Using [[00_Index/Python|python]] with libraries like **pandas** and **numpy**.
 
 # Data Sources
 
-See [[03_Data_Science/Data_Acquisition/Data Acquisition|Data Acquisition]].
+See [[03_Data_Science/Data Acquisition/Data Acquisition|Data Acquisition]].
 
 # Data Processing
 
 See [[03_Data_Science/Data_Processing/Data Processing|Data Processing]].
+
+# Data Exploring
+
+See [[03_Data_Science/Data_Exploring/Data Exploring|Data Exploring]].
+
+# Modeling
+
+See [[02_Modeling/Modeling|Modeling]]
+
+# Interpretation
+
+See 

@@ -53,12 +53,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_Index/Math.md",
+                "file": "00_Index/Data Science.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Math"
+              "title": "Data Science"
             }
           }
         ],
@@ -225,10 +225,22 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "77fd6721fee05545",
+  "active": "14af2ebcacad3023",
   "lastOpenFiles": [
-    "00_Index/Python.md",
+    "06_Statistical_Analysis/Law of Large Numbers.md",
+    "04_Python/Concepts/Conditional Filtering.md",
+    "04_Python/Libraries/numpy/Linear Algebra.md",
+    "04_Python/Libraries/numpy/Random.md",
+    "04_Python/Libraries/numpy/Numpy 2D Arrays.md",
+    "04_Python/Libraries/numpy/Numpy 1D Arrays.md",
+    "03_Data_Science/Modeling/Modeling.md",
+    "03_Data_Science/Modeling",
+    "03_Data_Science/Data_Exploring/Data Exploring.md",
+    "03_Data_Science/Data_Exploring",
+    "03_Data_Science/Data Acquisition/Data Acquisition.md",
+    "03_Data_Science/Data Acquisition",
     "00_Index/Math.md",
+    "00_Index/Python.md",
     "00_Index/Statistical Analysis.md",
     "00_Index/Data Science.md",
     "03_Data_Science/Data_Processing/Data Processing.md",
@@ -251,18 +263,6 @@
     "README.md",
     "LICENSE",
     "04_Python/Libraries/numpy/Numpy Arrays.md",
-    "04_Python/Libraries/numpy/Numpy Conditional Operations.md",
-    "04_Python/Libraries/Libraries/numpy",
-    "04_Python/Libraries/Libraries",
-    "04_Python/Concepts/Slicing.md",
-    "06_Statistical_Analysis/Standard Deviation.md",
-    "04_Python/Data_Structures/DataFrame Methods.md",
-    "06_Statistical_Analysis/Variance.md",
-    "00_Index/Subscript Notation.md",
-    "XX_Definitions/Subscript Notation.md",
-    "XX_Definitions",
-    "00_Index/Definitions.md",
-    "XX_Definitions/Definitions.md",
     "Assets/Pasted image 20260109111005.png",
     "Assets/shell/shell-1767981036576.png",
     "Assets/image 2.png",
