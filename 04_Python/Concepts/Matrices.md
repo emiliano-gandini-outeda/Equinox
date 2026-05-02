@@ -10,5 +10,3 @@ created: 2026-04-20
 A matrix is a 2-dimensional array of values (rows and columns).
 
 In numpy, matrices are represented using 2D arrays.
-
-> See also: [[04_Python/Libraries/Libraries]]
