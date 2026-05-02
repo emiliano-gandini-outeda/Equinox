@@ -39,13 +39,10 @@ ROLES = {
 }
 ```
 
- RBAC is created around the [[CRUD]] concept.
-
 Let's imagine we have a simple user model in `app/models.py`.
 
 ```python
 class User():
-	
 	id : str
 	role : str
 ```
@@ -64,3 +61,5 @@ def hasPermission(user : User, permission : str) -> bool:
 	return True
 
 ```
+
+**Role Based Access Control** is an easy way to design permission for **small applications**.

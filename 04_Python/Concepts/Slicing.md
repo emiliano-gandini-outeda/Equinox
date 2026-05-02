@@ -1,4 +1,4 @@
-Slicing is [[Subscript Notation]] to get a subrange from a sequence.
+Slicing is [[10_Atomic/Subscript Notation]] to get a subrange from a sequence.
 
 For any array, you can slice its contents.
 

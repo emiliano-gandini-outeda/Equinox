@@ -1,12 +1,12 @@
 ---
 tags:
-  - definitions
+  - atomic
   - overview
 created: 2026-04-28
 ---
 
-# Definitions
+# Atomic
 
 Core definitions and terminology.
 
-- [[XX_Definitions/Subscript Notation]]
+- [[10_Atomic/Subscript Notation]]
