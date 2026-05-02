@@ -7,8 +7,9 @@ created: 2026-04-18
 
 # Topics
 
-- [[00_Index/Data Science]]
-- [[00_Index/Python]]
-- [[00_Index/Statistical Analysis]]
-- [[00_Index/Programming Theory]]
-- [[00_Index/Definitions]]
+- [[00_Index/Data Science|Data Science]]
+- [[00_Index/Python|Python]]
+- [[00_Index/Statistical Analysis|Statistical Analysis]]
+- [[00_Index/Computer Science|Computer Science]]
+- [[00_Index/Definitions|Definitions]]
+- [[Math]]
