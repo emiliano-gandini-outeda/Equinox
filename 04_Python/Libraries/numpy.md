@@ -389,4 +389,4 @@ LA.norm(A, ord=1) # Calculates the L1 norm = sum of absolute values
 LA.norm(A, ord=np.inf) # Calculates L∞, the largest absolute value
 ```
 
-See more in [[04_Python/Libraries/numpy/Linear Algebra]|linear algebra with numpy]].
+See more in [[Numpy Linear Algebra|linear algebra with numpy]].
