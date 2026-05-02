@@ -1,10 +1,12 @@
-# Data Exploring
+Data exploring focuses on **understanding** data quality, patterns, distributions, and relationships.
 
-Data exploring focuses on understanding data quality, patterns, distributions, and relationships.
+There are several data exploration techniques. The most common ones are:
+- Heading data (looking at the first row)
+- Creating histograms to visualize distributions
+- Producing scatter plots to asses the relationships between variables
+- Conduct dimensional reductions to simplify the dataset
+- Cluster the data to identify groups and patterns
 
-## Typical Tasks
+This usually brings dashboards, graphs, and other **visual representations** of data.
 
-- Summary statistics
-- Missing value checks
-- Outlier detection
-- Correlation and trend analysis
+The objective of this phase is not to understand every minor detail, but to get a good sense of the trends to make a proper model.
