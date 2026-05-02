@@ -46,10 +46,14 @@ See [[03_Data_Science/Data_Processing/Data Processing|Data Processing]].
 
 See [[03_Data_Science/Data_Exploring/Data Exploring|Data Exploring]].
 
+# Workflows
+
+See [[03_Data_Science/Workflows/Workflows|Workflows]].
+
 # Modeling
 
 See [[02_Modeling/Modeling|Modeling]]
 
 # Interpretation
 
-See 
+See [[03_Data_Science/Data_Interpretation/Data Interpretation|Data Interpretation]].
