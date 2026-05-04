@@ -1,11 +1,12 @@
 {
-  "snippets_file": "ik : I know\njs : JavaScript\nimo : in my opinion\ncomms : communications\nmath : $\\mathbf{}$",
+  "snippets_file": "ik : I know\njs : JavaScript\nimo : in my opinion\ncomms : communications\nmath : $\\mathbf{}$\nmtrx : \\begin{bmatrix} \\end{bmatrix}",
   "snippets": [
     "ik : I know",
     "js : JavaScript",
     "imo : in my opinion",
     "comms : communications",
-    "math : $\\mathbf{}$"
+    "math : $\\mathbf{}$",
+    "mtrx : \\begin{bmatrix} \\end{bmatrix}"
   ],
   "endSymbol": "$end$",
   "newlineSymbol": "$nl$",

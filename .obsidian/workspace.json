@@ -20,7 +20,7 @@
             }
           },
           {
-            "id": "48712327f9d0e70e",
+            "id": "e9a1e8d7e7cbda42",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -91,8 +91,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "2e242d1474fd531f",
@@ -198,9 +197,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "48712327f9d0e70e",
+  "active": "e9a1e8d7e7cbda42",
   "lastOpenFiles": [
     "07_Math/Linear_Algebra/Linear Algebra.md",
+    "Untitled.md",
     "05_Design_Paradigms/Design Paradigms.md",
     "05_Design_Paradigms/Role Based Access Control.md",
     "05_Design_Paradigms/Attribute Based Access Control.md",
@@ -212,7 +212,6 @@
     "Vault Index.md",
     "00_Index/Data Science.md",
     "00_Index/Math.md",
-    "Untitled.md",
     "10_Atomic/Subscript Notation.md",
     "10_Atomic",
     "README.md",
