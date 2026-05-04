@@ -11,5 +11,5 @@ created: 2026-04-18
 - [[00_Index/Python|Python]]
 - [[00_Index/Statistical Analysis|Statistical Analysis]]
 - [[00_Index/Computer Science|Computer Science]]
-- [[00_Index/Definitions|Definitions]]
+- [[00_Index/Atomic|Atomic Definitions]]
 - [[Math]]

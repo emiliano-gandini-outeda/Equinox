@@ -6,25 +6,17 @@
   "hideUnresolved": false,
   "showOrphans": true,
   "collapse-color-groups": false,
-  "colorGroups": [
-    {
-      "query": "file:Vault Index",
-      "color": {
-        "a": 1,
-        "rgb": 8175552
-      }
-    }
-  ],
+  "colorGroups": [],
   "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 1,
   "lineSizeMultiplier": 1,
   "collapse-forces": false,
-  "centerStrength": 0.518713248970312,
+  "centerStrength": 0,
   "repelStrength": 10,
-  "linkStrength": 1,
-  "linkDistance": 500,
-  "scale": 0.35089658265298396,
+  "linkStrength": 0.725830078125,
+  "linkDistance": 267,
+  "scale": 0.200225830078125,
   "close": false
 }

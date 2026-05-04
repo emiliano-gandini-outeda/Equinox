@@ -1,12 +1,11 @@
 {
-  "snippets_file": "ik : I know\njs : JavaScript\nimo : in my opinion\ncomms : communications\nsup : <sup></sup>\npy : ```python```",
+  "snippets_file": "ik : I know\njs : JavaScript\nimo : in my opinion\ncomms : communications\nmath : $\\mathbf{}$",
   "snippets": [
     "ik : I know",
     "js : JavaScript",
     "imo : in my opinion",
     "comms : communications",
-    "sup : <sup></sup>",
-    "py : ```python```"
+    "math : $\\mathbf{}$"
   ],
   "endSymbol": "$end$",
   "newlineSymbol": "$nl$",
