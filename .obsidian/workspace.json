@@ -91,7 +91,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "2e242d1474fd531f",
@@ -199,6 +200,10 @@
   },
   "active": "e9a1e8d7e7cbda42",
   "lastOpenFiles": [
+    "Assets/Linear Algebra/Linear Algebra-1777929856834.png",
+    "Assets/Linear Algebra/Linear Algebra-1777926345664.png",
+    "Assets/Linear Algebra",
+    "Assets",
     "07_Math/Linear_Algebra/Linear Algebra.md",
     "Untitled.md",
     "05_Design_Paradigms/Design Paradigms.md",
@@ -229,12 +234,9 @@
     "03_Data_Science/Workflows/OSEMN/OSEMN.md",
     "03_Data_Science/Workflows/Workflows.md",
     "03_Data_Science/Workflows/OSEMN",
-    "03_Data_Science/Data_Processing/Data Processing.md",
     "03_Data_Science/Workflows",
     "03_Data_Science/Data_Processing",
     "03_Data_Science/Data_Interpretation",
-    "03_Data_Science/Data_Exploring",
-    "03_Data_Science/Data Acquisition",
     "Assets/Pasted image 20260109111005.png",
     "Assets/shell/shell-1767981036576.png",
     "Assets/image 2.png",

@@ -31,7 +31,89 @@ $v + w = \begin{bmatrix}1 \\  1 \end{bmatrix} + \begin{bmatrix}2 \\  3 \end{bmat
 5. The combinations $c \begin{bmatrix}1 \\  1 \\  1\end{bmatrix} + d \begin{bmatrix}2 \\  3 \\  4\end{bmatrix}$ fill a **plane** in $xyz$ space. Same plane for $\begin{bmatrix}1 \\  1 \\  1\end{bmatrix} · \begin{bmatrix}3 \\  4 \\  5\end{bmatrix}$
 6. But $\begin{matrix}c + 2d = 1 \\  c+3d = 0 \\  c+4d=0\end{matrix}$ has no solution because its right side $\begin{bmatrix}1 \\  0 \\  0\end{bmatrix}$ is not on that plane.
 
-**Two separate numbers** $v_{1}$ and $v_{2}$ produce a **two-dimensional vector** $v$.
+**Two separate numbers** $v_{1}$ and $v_{2}$ produce a **two-dimensional vector** $v$:
+
+**Column vector** $v = \begin{bmatrix}v_{1} \\  v_{2}\end{bmatrix}$ 
+$v_{1}$ = first component of $v$
+$v_{2}$ = second component of $v$
 
 #### Vector Addition
 $v = \begin{bmatrix}v_{1} \\  v_{2}\end{bmatrix}$ and $w=\begin{bmatrix}w_{1} \\  w_{2}\end{bmatrix}$ add to $v + w = \begin{bmatrix}v_{1} + w_{1} \\  v_{2}+w_{2}\end{bmatrix}$
+
+The $x_{i}$ components stays separated of the $w_{j}$ components.
+
+**Subtraction follows the same principle**.
+
+### Scalar Multiplication
+
+$2v = \begin{bmatrix}2v_{1} \\  2v_{2}\end{bmatrix} = v+v$
+$-v = \begin{bmatrix}-v_{1} \\  -v_{2}\end{bmatrix}$
+
+The components of $cv$ are $cv_{1}$ and $cv_{2}$. The number $c$ is called a **scalar**. 
+
+$v - v = 0$, but 0 is not the number zero, its the **Vector 0**. The vector 0 has components 0 and 0.
+
+There are four linear combinations: sum, difference, zero and scalar multiple:
+- $1v + 1w =$ sum of vectors
+- $1v - 1w=$ difference of vectors
+- $0v + 0w=$ *zero vector*
+- $cv + 0w =$ vector $cv$ in the [[#Vector Direction|direction]] of $v$
+
+**Visual representation of vectors**
+![[Linear Algebra-1777926345664.png]]
+Vector addition $v+w = (3,4)$ produces the diagonal of a parallelogram.
+
+
+We travel **along** $v$ and then **along** $w$. This means $v + w = w + v$.
+
+---
+### Three Dimensional Vectors
+
+A vector with two components corresponds to a point in the $xy$ plane. 
+$$v_{1} = x \text{ and } v_{2}=y$$
+The arrow ends at $(v_{1}, v_{2})$ and starts from $(0,0)$.
+
+In **3D spaces**, the $xy$ **plane** is replaced by the three dimensional $xyz$ space.
+
+$$v = \begin{bmatrix}
+1 \\
+1 \\
+-1
+\end{bmatrix} \text{ and } w = \begin{bmatrix}
+2 \\
+3 \\
+4
+\end{bmatrix} \text{ and }v+w=\begin{bmatrix}
+3 \\
+4 \\
+3
+\end{bmatrix}$$
+The vector $v$ corresponds to an arrow in 3-space.
+
+![[Linear Algebra-1777929856834.png]]
+
+Vectors $\begin{bmatrix}x \\  y\end{bmatrix} \text{ and } \begin{bmatrix}x \\  y \\  z\end{bmatrix}$ correspond to points $(x, y)$ and $(x,y,z)$.
+
+>Notation: $v=\begin{bmatrix}1 \\  1 \\  -1\end{bmatrix} \text{ is also written as } v=(1,1,-1)$
+
+**Notice:** $v$ is not a **row vector**. It's a **column** vector written in a easier way.
+
+In three dimensions, $v+w$ is still a component:
+$$v_{1} + w_{1} \text{ and }v_{2}+w_{2} \text{ and }v_{3}+w_{3}$$
+**This works for n dimensions:**
+$$v_{1} + w_{1} \text{ and }v_{2}+w_{2} \text{ ... and }v_{n} + w_{n}$$
+
+## Lines, Planes and Spaces
+
+### Lines
+
+A line [[#Subspaces|subspace]] is a one-dimensional subspace spanned by vectors that are scalar multiples of a single vector.
+$$L = \{cv \mid c \text{ in }\mathbb{R}\}, v \neq 0$$
+### Planes
+
+A plane subspace is a two-dimensional subspace spanned by two linearly independent vectors. Equivalently, it consists of all linear combinations of those vectors.
+$$P = \{cv+dw \mid c,d \text{ in } \mathbb{R}\},\ v, d \text{ linearly independent}$$
+
+### Spaces
+
+A space subspace is a $k$-dimensional subspace spanned by $k$ linearly independent vectors. Equivalently, it consists of all linear combinations of those vectors.$$S = \{ c_1 v_1 + c_2 v_2 + \cdots + c_k v_k \mid c_1, \dots, c_k \in \mathbb{R} \}, \quad v_1, \dots, v_k \text{ linearly independent}$$
