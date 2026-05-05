@@ -7,5 +7,4 @@ The topic covers:
 - Computational Models: Automata, Turing Machines, Lambda Calculus
 - Core Abstractions: Data Structures, Algorithms, Recursion
 - Complexity Theory: time/space complexity, Big-O
-
-
+- [[08_System_Architecture/Systems Architecture|Systems Architecture]]

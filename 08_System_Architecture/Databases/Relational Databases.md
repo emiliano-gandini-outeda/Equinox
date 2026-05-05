@@ -1,0 +1,123 @@
+## Tables
+
+A table, also called entity or relation, is a data structure composed by tuples and attributes.
+- It represents a **set of entities or records**. 
+- It has a fixes schema
+- Each row follow the same structure
+
+### Attributes
+Attributes are the **named columns** of a table.
+- Define the **type of data** stored (eg: INT, TEXT)
+- Each attribute has a **domain** (allowed values)
+
+Example:
+
+```
+Students(id, name, age)
+```
+
+- `id`, `name`, `age` → attributes
+- Domains:
+    - `id` → integers
+    - `name` → strings
+    - `age` → integers
+
+### Tuples
+A tuple is a **single row** in a table.
+- it represents **one record/instance**
+- it is an ordered **set of values**, one per attribute
+
+Example:
+
+```
+(1, "Emiliano", 21)
+```
+
+- This is one **tuple** in `Students`
+
+### **Key properties**
+
+- A table is a **set of tuples** → no duplicate rows (in pure relational theory)
+- Order of rows **does not matter**
+- Order of attributes **does not matter** (though we write them in order)
+
+
+To avoid duplicate data, we use [[05_Design_Paradigms/Normalization|normalization]].
+
+## Relationships
+
+In a relational model, **relationships** describe how tuples in one table are associated with tuples in another (or the same) table.
+
+#### Types of relationships
+- **Cardinality** → how many? (1:1, 1:N, N:M)
+- **Participation** → required or optional?
+- **Degree** → how many tables involved?
+- **Identification** → does the child depend on the parent’s identity?
+
+### By Cardinality
+
+#### One-to-One (1:1)
+Each tuple in A is related to **at most one** tuple in B, and vice versa.
+- Example: Person <--> Passport
+
+Implementation: [[08_System_Architecture/Databases/Relational_Databases/Foreign key|Foreign Key]] with a unique constraint. 
+
+**Meaning**: each entity participates in **at most one** relationship instance.
+
+> Note: In practice, 1:1 is often merged into a single table unless there’s a strong reason (e.g., optional data, security, or modular design).
+#### One-to-Many
+One tuple in A can relate to **many** tuples in B, but each tuple in B relates to **one** in A.
+- Example: Company <--> Employees
+
+Implementation: Foreign key goes in the **"many" side**.
+
+```
+Employees(company_id → Company.id)
+```
+
+#### Many-to-Many
+Tuples in A can relate to many in B, and vice versa.
+- Example: Students <--> Course
+
+Implementation: requires a [[08_System_Architecture/Databases/relational_Databases/Junction Table|junction table]].
+
+```
+Enrollments(student_id, course_id)
+```
+
+### By Participation
+<sub>Optional vs Mandatory</sub>
+
+#### Total participation
+<sub>Mandatory</sub>
+
+Every tuple **must** participate in the relationship.
+- Example: every `Employee` must belong to a `Company`
+
+#### Partial Participation
+<sub>Optional</sub>
+
+A tuple **may or may not** participate.
+- Example: a `User` may have a `Profile Picture`
+
+### By Degree
+#### Unary (Recursive)
+A table relates to **itself**.
+- Example: `Employee manages Employee`
+
+#### Binary 
+Between **two tables**. Most common relationship.
+
+#### Ternary (or higher)
+Between **three or more** tables. 
+- Example: `Supplier supplies Product to Store`
+
+### Identifying vs Non-Identifying
+#### Identifying Relationship
+- Child's primary key **depends on parent**
+- Used in **weak entities**
+
+#### Non-Identifying Relationships
+- Child has its own independent primary key
+
+

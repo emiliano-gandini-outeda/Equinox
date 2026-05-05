@@ -60,7 +60,7 @@ There are four linear combinations: sum, difference, zero and scalar multiple:
 - $cv + 0w =$ vector $cv$ in the [[#Vector Direction|direction]] of $v$
 
 **Visual representation of vectors**
-![[Linear Algebra-1777926345664.png]]
+![[Linear Algebra-1777926345664.png| @darkmode]]
 Vector addition $v+w = (3,4)$ produces the diagonal of a parallelogram.
 
 
@@ -90,7 +90,7 @@ $$v = \begin{bmatrix}
 \end{bmatrix}$$
 The vector $v$ corresponds to an arrow in 3-space.
 
-![[Linear Algebra-1777929856834.png]]
+![[Linear Algebra-1777929856834.png| @darkmode]]
 
 Vectors $\begin{bmatrix}x \\  y\end{bmatrix} \text{ and } \begin{bmatrix}x \\  y \\  z\end{bmatrix}$ correspond to points $(x, y)$ and $(x,y,z)$.
 

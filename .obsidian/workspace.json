@@ -20,17 +20,17 @@
             }
           },
           {
-            "id": "e9a1e8d7e7cbda42",
+            "id": "4d1febe3615f8ff1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "07_Math/Linear_Algebra/Linear Algebra.md",
+                "file": "08_System_Architecture/Databases/Relational Databases.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Linear Algebra"
+              "title": "Relational Databases"
             }
           }
         ],
@@ -198,21 +198,28 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "e9a1e8d7e7cbda42",
+  "active": "4d1febe3615f8ff1",
   "lastOpenFiles": [
+    "Untitled.md",
+    "08_System_Architecture/Databases/Relational Databases.md",
+    "08_System_Architecture/Systems Architecture.md",
+    "00_Index/Computer Science.md",
+    "07_Math/Linear_Algebra/Linear Algebra.md",
+    "08_System_Architecture/Databases/relational_Databases/Junction Table.md",
+    "08_System_Architecture/Databases/relational_Databases",
+    "08_System_Architecture/Databases.md",
+    "08_System_Architecture/Databases",
+    "08_System_Architecture",
+    "00_Index/Atomic.md",
     "Assets/Linear Algebra/Linear Algebra-1777929856834.png",
     "Assets/Linear Algebra/Linear Algebra-1777926345664.png",
     "Assets/Linear Algebra",
     "Assets",
-    "07_Math/Linear_Algebra/Linear Algebra.md",
-    "Untitled.md",
     "05_Design_Paradigms/Design Paradigms.md",
     "05_Design_Paradigms/Role Based Access Control.md",
     "05_Design_Paradigms/Attribute Based Access Control.md",
-    "00_Index/Atomic.md",
     "00_Index/Python.md",
     "04_Python/Data_Types/Data Types.md",
-    "00_Index/Computer Science.md",
     "05_Design_Paradigms/CRUD.md",
     "Vault Index.md",
     "00_Index/Data Science.md",
@@ -230,13 +237,7 @@
     "04_Python/Libraries/numpy/Numpy 2D Arrays.md",
     "04_Python/Libraries/numpy/Numpy 1D Arrays.md",
     "04_Python/Libraries/numpy/Matrix Math.md",
-    "04_Python/Concepts/Conditional Filtering.md",
-    "03_Data_Science/Workflows/OSEMN/OSEMN.md",
-    "03_Data_Science/Workflows/Workflows.md",
     "03_Data_Science/Workflows/OSEMN",
-    "03_Data_Science/Workflows",
-    "03_Data_Science/Data_Processing",
-    "03_Data_Science/Data_Interpretation",
     "Assets/Pasted image 20260109111005.png",
     "Assets/shell/shell-1767981036576.png",
     "Assets/image 2.png",
