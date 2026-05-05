@@ -90,7 +90,7 @@ $$v = \begin{bmatrix}
 \end{bmatrix}$$
 The vector $v$ corresponds to an arrow in 3-space.
 
-![[Linear Algebra-1777929856834.png| @darkmode]]
+![[Linear Algebra-1777929856834.png|@darkmode]]
 
 Vectors $\begin{bmatrix}x \\  y\end{bmatrix} \text{ and } \begin{bmatrix}x \\  y \\  z\end{bmatrix}$ correspond to points $(x, y)$ and $(x,y,z)$.
 
@@ -117,3 +117,20 @@ $$P = \{cv+dw \mid c,d \text{ in } \mathbb{R}\},\ v, d \text{ linearly independe
 ### Spaces
 
 A space subspace is a $k$-dimensional subspace spanned by $k$ linearly independent vectors. Equivalently, it consists of all linear combinations of those vectors.$$S = \{ c_1 v_1 + c_2 v_2 + \cdots + c_k v_k \mid c_1, \dots, c_k \in \mathbb{R} \}, \quad v_1, \dots, v_k \text{ linearly independent}$$
+See [[Problem Set 1.1]].
+
+### Component sum
+
+When you take any linear combination $cv +dw$:
+$$\text{(first component) + (second component) + (third component)}$$
+If every vector in a set has certain linear combination of its coordinates equal to zero, then **every linear combination** of them will also have that property.
+
+### Spaces and Linear Combinations
+
+When a vector $w$ can be written as a [[Linear Combination]] $w = c u + d v$, it means $w$ belongs to the **span** of $u$ and $v$: the set of all possible combinations $c u + d v$. 
+
+If $u$ and $v$ are not parallel (i.e., they are [[Linear Independence]]), their span is a **plane through the origin** in 3D space. Since $u$ and $v$ themselves obviously lie in that plane (by choosing $(c,d) = (1,0)$ or $(0,1)$), adding $w$, which is just another combination, means all three vectors are confined to that same plane. 
+
+Graphically, you can think of $u$ and $v$ as two arrows defining a flat sheet through the origin; any weighted sum of them stays on that sheet. Thus, the condition "$w$ is a linear combination of $u$ and $v$" is exactly the algebraic test for [[Coplanarity]] (through the origin), assuming $u$ and $v$ are not [[Collinearity|collinear]]. 
+
+If $u$ and $v$ were parallel, the span would be just a line, not a plane, but then $u$, $v$, and $w$ would all lie on that line instead.
