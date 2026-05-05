@@ -1,0 +1,6 @@
+{
+  "cacheDir": "assets/image-darkmodifier",
+  "imgSelector": "img",
+  "debug": false,
+  "themeAware": true
+}

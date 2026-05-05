@@ -35,6 +35,9 @@ Example:
 
 - This is one **tuple** in `Students`
 
+### Indexes
+An [[Index]] is an **auxiliary data structure** associated with a **table** that allows faster lookup of tuples based on one or more attributes.
+
 ### **Key properties**
 
 - A table is a **set of tuples** → no duplicate rows (in pure relational theory)
@@ -60,7 +63,7 @@ In a relational model, **relationships** describe how tuples in one table are as
 Each tuple in A is related to **at most one** tuple in B, and vice versa.
 - Example: Person <--> Passport
 
-Implementation: [[08_System_Architecture/Databases/Relational_Databases/Foreign key|Foreign Key]] with a unique constraint. 
+Implementation: [[08_System_Architecture/Databases/Relational_Databases/Foreign key|Foreign Key]] with a unique [[Constraint]]. 
 
 **Meaning**: each entity participates in **at most one** relationship instance.
 
@@ -69,7 +72,7 @@ Implementation: [[08_System_Architecture/Databases/Relational_Databases/Foreign 
 One tuple in A can relate to **many** tuples in B, but each tuple in B relates to **one** in A.
 - Example: Company <--> Employees
 
-Implementation: Foreign key goes in the **"many" side**.
+Implementation: Foreign key goes in the **"many" side**. It usually is the [[08_System_Architecture/Databases/Relational_Databases/Primary Key|primary key]].
 
 ```
 Employees(company_id → Company.id)
@@ -79,7 +82,7 @@ Employees(company_id → Company.id)
 Tuples in A can relate to many in B, and vice versa.
 - Example: Students <--> Course
 
-Implementation: requires a [[08_System_Architecture/Databases/relational_Databases/Junction Table|junction table]].
+Implementation: requires a [[Junction Table|junction table]].
 
 ```
 Enrollments(student_id, course_id)
