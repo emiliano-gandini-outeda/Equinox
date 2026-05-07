@@ -13,3 +13,4 @@ Mathematical methods for analyzing data.
 
 - [[Standard Deviation]]: Measure of data dispersion around the mean.
 - [[Variance]]: Square of standard deviation; measures spread of data points.
+- [[Benford's Law]]

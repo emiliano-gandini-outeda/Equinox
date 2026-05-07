@@ -224,3 +224,262 @@ anime_data.describe()
 
 # Once again, output is too big
 ```
+### Determination of NaN
+
+**Nan** (**N**ot **a** **N**umber) represents null data, missing data.
+
+We need to filter missing data as to avoid miscalculation. We use the `isnull()` method to check for null values.
+
+```python
+anime_data.isnull()
+
+# Output
+||MAL_ID|Name|Score|Genres|Type|Aired|Studios|Source|
+|---|---|---|---|---|---|---|---|---|
+|0|False|False|False|False|False|False|False|False|
+|1|False|False|False|False|False|False|False|False|
+```
+
+To find the total number of null values, we just add the `sum()` method after.
+
+```python
+anime_data.isnull().sum()
+```
+
+### Sorting
+
+To sort value by index:
+
+```python
+anime_data.sort_index()
+```
+
+To sort by value in a specific column:
+
+```python
+anime_data.sort_values(by="Score", ascending=False)
+```
+
+## Merging Data
+
+See [[Merging Data]] for theory.
+
+To merge datasets, we use `pd.merge()`.
+
+```python
+pd.merge(dataset1, dataset2)
+```
+
+Without arguments, the default behavior of `merge()` is **Inner Join**.
+
+You can specify a key passing the `on` parameter.
+
+```python
+pd.merge(dataset1, dataset2, on="ValueToFilter")
+```
+
+This keeps all the rows that match on the column `ValueToFilter`.
+
+We can also filter columns with different names by passing the `left_on` and `right_on` parameters.
+
+```python
+import pandas as pd
+
+users = pd.DataFrame({
+    "user_id": [1, 2, 3],
+    "name": ["Alice", "Bob", "Charlie"]
+})
+
+orders = pd.DataFrame({
+    "customer_id": [1, 1, 2],
+    "product": ["Book", "Pen", "Laptop"]
+})
+```
+
+The matching columns are `users.user_id` and `orders.customer_id`.
+
+```python
+pd.merge(
+    users,
+    orders,
+    left_on="user_id",
+    right_on="customer_id"
+)
+
+# With multiple columns
+
+pd.merge(
+    df1,
+    df2,
+    left_on=["id", "year"],
+    right_on=["customer", "date"]
+)
+```
+
+**Left outer joins** specify `how="left"`.
+
+```python
+pd.merge(df1, df2, how="left")
+```
+
+**Right outer joins** work the same but with `how="right"`.
+
+##### Full outer join
+
+Full outer joins works by extracting data that doesn't exist in either DataFrame.
+
+```python
+pd.merge(df1, df2, how="outer")
+```
+
+#### Index Merge
+
+To merge by index we use the `df.join()` method.
+
+```python
+import pandas as pd
+
+df1 = pd.DataFrame({
+    "name": ["Alice", "Bob", "Charlie"]
+}, index=[1, 2, 3])
+
+df2 = pd.DataFrame({
+    "age": [25, 30, 40]
+}, index=[1, 2, 4])
+
+df1.join(df2)
+
+# Outout
+
+      name   age
+1    Alice  25.0
+2      Bob  30.0
+3  Charlie   NaN
+```
+
+
+### Concatenating Data
+
+`pd.concat` is used to concatenate data without specifying keys.ç
+
+#### Vertical join
+
+The default is to simply connect vertically. The `pd.concat()` is often used to vertically stack data with identical columns. You can pass the `sort=True/False` argument to sort.
+
+```python
+import pandas as pd
+
+df1 = pd.DataFrame({
+    "name": ["Alice", "Bob"],
+    "age": [25, 30]
+})
+
+df2 = pd.DataFrame({
+    "name": ["Charlie"],
+    "city": ["Paris"]
+})
+
+result = pd.concat([df1, df2], ignore_index=True)
+
+# Output
+
+      name   age   city
+0    Alice  25.0    NaN
+1      Bob  30.0    NaN
+2  Charlie   NaN  Paris
+```
+
+#### Horizontal Join
+
+To join horizontally, specify an axis for the `axis` argument. The `axis=0` is the row and `axis=1` is the column. So here you need to specify `axis=1`. In this case, they will be tied by `index` and the `columns` will be joined as they are. If `axis=0` is specified, the columns will be joined vertically. Keep in mind that this `axis` argument is used in other situations as well.
+
+```python
+pd.concat([df1, df2], axis=1)
+```
+
+## Transforming Data
+
+To delete columns or rows in a `DataFrame` object, you mainly use `drop()` method.
+
+For deleting rows: Specify the `Index` of the rows you want to delete as a list in the first argument. Set `axis` to **0**.
+
+For deleting columns: Specify the column names you want to delete as a list in the first argument. Set `axis` to **1**.
+
+After deletion, we should use the `reset_index()` method to reassign a new index.
+
+```python
+
+import pandas as pd
+
+df = pd.DataFrame({
+    "name": ["Alice", "Bob", "Charlie"],
+    "age": [25, 30, 22],
+    "city": ["Paris", "London", "Rome"]
+})
+
+# Output
+
+      name  age    city
+0    Alice   25   Paris
+1      Bob   30  London
+2  Charlie   22    Rome
+
+# Drop columns
+
+df.drop(columns=["city"])
+# Is the same as:
+df.drop("city", axis=1)
+
+# Output
+
+      name  age
+0    Alice   25
+1      Bob   30
+2  Charlie   22
+
+# Drop rows by index
+
+df.drop(index=[1])
+# Is the same as:
+df.drop(1)
+
+# Output
+
+      name  age   city
+0    Alice   25  Paris
+2  Charlie   22   Rome
+
+# Drop multiple rows
+
+df.drop([0, 2])
+
+# Output
+
+  name  age    city
+1  Bob   30  London
+```
+
+Other arguments are:
+
+```python
+# Prevents errors if a label doesn't exist:
+df.drop(columns=["salary"], errors="ignore")
+
+# Modify the original DataFrame instead of returning a new one:
+df.drop(columns=["city"], inplace=True)
+```
+
+### Duplicate Data
+
+The `duplicated()` method returns `True` if a duplicate exists in the same column.
+
+```python
+df["Name"].duplicated()
+```
+
+The `drop_duplicates()` method returns the resulting data **after** removing duplicates.
+
+```python
+df["Name"].drop_duplicates()
+```
+
