@@ -27,9 +27,9 @@ Start here: [[Vault Index]].
 
 ---
 
-This vault is also published as a self-hosted Quartz site at [equinox.emiliano-gandini-outeda.uy](https://equinox.emiliano-gandini-outeda.uy).
+This vault is also published as a self-hosted Quartz site at [equinox.emiliano-gandini-outeda.uy](https://equinox.emiliano-go.com).
 
-This repo is not meant to be conttributed to, but corrections (as Issues or Pull Requests) are welcome.
+This repo is not meant to be contributed to, but corrections (as Issues or Pull Requests) are welcome.
 
 > Why GitHub? Why not Obisidian Sync?
 
